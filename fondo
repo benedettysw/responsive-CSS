@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: 0; /* Elimina los márgenes predeterminados */
+    padding: 0; /* Elimina los rellenos predeterminados */
+    background-image: url('fondo.PNG');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh; /* Asegura que el cuerpo ocupe toda la altura de la ventana del navegador */
+
+  }
+  
+  @media (max-width: 767px) {
+    body {
+      background-size: contain; /* Cambiar a 'contain' para que la imagen se ajuste dentro del cuerpo */
+      background-position: top; /* Ajustar la posición de la imagen */
+      height: auto;
+    }
+  }
